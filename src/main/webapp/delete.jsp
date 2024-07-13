@@ -1,6 +1,6 @@
 <%@ page import="java.sql.Connection, java.sql.DriverManager, java.sql.Statement" %>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
+    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+        <%
     // Get the task ID of the task to be deleted from the request parameter
     String taskId = request.getParameter("task_id");
 
@@ -11,6 +11,7 @@
 
     Connection connection = null;
     Statement statement = null;
+    //lalu is madrchod lalu jadav
 
     try {
         // Load the MySQL JDBC driver
